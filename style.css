@@ -82,12 +82,12 @@
 /* Self Description area */
 
 .topnav {
-    background-color: rgb(17, 17, 17, 0.92);
-    box-shadow: #111 0.4px 4px 10px;
+    background-color: rgb(17,17,17, 0.87);
+    box-shadow: #999 0.4px 4px 10px;
 }
 
 .home {
-    background-color: rgba(31, 31, 31, 0.78);
+    background-color: rgb(17,17,17, 0.77);
 }
 
 .col-7,
@@ -122,13 +122,13 @@
 /* Skills  Area Styles */
 
 .more-about {
-    background: url("img/landing-pg.jpg") no-repeat fixed center;
+    background: url("img/landing-pg.jpg") no-repeat fixed;
 }
 
 .more-about-container {
-    background-color: rgba(0, 0, 0, 0.88);
+    background-color: rgba(0, 0, 0, 0.95);
     text-align: center;
-    padding: 30px 10% 0;
+    padding: 15px 10% 0;
     color: whitesmoke;
     margin-bottom: 0;
 }
