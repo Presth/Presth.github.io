@@ -1,0 +1,136 @@
+@media only screen and (min-width: 768px) {
+    .topnav .nav-menus {
+        height: unset;
+        display: unset;
+    }
+    .topnav .nav-menus a {
+        padding: 12px 30px;
+        margin: 10px 20px;
+        border-radius: 40px;
+        border: 2px solid salmon;
+        display: inline-block;
+    }
+    .col-7 {
+        float: left;
+        width: 58.3%
+    }
+    .col-5 {
+        width: 46.7%;
+        float: left;
+    }
+    .col-4 {
+        width: 33.2%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* About Section */
+    .home {
+        text-align: center;
+        height: 100%;
+        margin: 0;
+        padding: 38% 3%;
+    }
+    /* .intro-text {} */
+    .name,
+    .about-me {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.7em;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        line-height: 1.2em;
+        margin-bottom: 8px;
+    }
+    .about-me {
+        font-size: 1em;
+    }
+    .social-links span {
+        margin: 10px;
+    }
+    .col-4 {
+        width: 70%;
+        margin-top: 50px;
+    }
+    /* skills */
+    .skills h3,
+    .services>h3,
+    .projects>h3 {
+        font-size: 2.2em;
+        letter-spacing: 4px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .more-about-container .picture {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 4em;
+    }
+    .more-about-container .picture img {
+        max-width: 100%;
+    }
+    .skills {
+        display: block;
+        width: 100%;
+        padding-bottom: 2em;
+    }
+    /* services */
+    .services {
+        padding-bottom: 20px;
+    }
+    .service-menu {
+        width: 95%;
+        margin: auto;
+        padding: 0;
+        display: block;
+    }
+    .service-item {
+        width: 100%;
+        display: block;
+        margin: 10px 0 1.7em;
+        padding: 4px 1.3em 1.3em;
+    }
+    .service-item img {
+        height: auto;
+        width: 100%;
+    }
+    /* projects */
+    .project-item {
+        width: 100%;
+        display: block;
+        padding: 15px 10px;
+        box-shadow: 0.4px 4px 10px;
+        margin-bottom: 15px;
+    }
+    .project-item .project-desc {
+        width: 100%;
+    }
+    .project-item h3 {
+        font-size: 1.3em;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .project-item img {
+        height: auto;
+        width: 100%;
+    }
+    /* Contact menu */
+    .contact-menu {
+        display: block;
+    }
+    .contact-item {
+        width: 95%;
+        margin: 10px 2%;
+        font-size: 1em;
+        display: block;
+    }
+    .contact-item>.social-links {
+        text-align: center;
+        font-size: 16px;
+    }
+    [class*='item'],
+    [class*='social'],
+    [class*='button'] {
+        font-size: 15px;
+    }
+}
